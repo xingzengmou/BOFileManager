@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#a0000000" >
+    <Button android:id="@+id/btn_back"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/btn_back"
+        android:background="@drawable/menu_btn_selector"/>
+    
+	<Button android:id="@+id/btn_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/btn_view"
+        android:background="@drawable/menu_btn_selector"/>
+    
+	<Button android:id="@+id/btn_copy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/btn_copy"
+        android:background="@drawable/menu_btn_selector"/>
+	
+	<Button android:id="@+id/btn_cut"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/btn_cut"
+        android:background="@drawable/menu_btn_selector"/>
+	
+	<Button android:id="@+id/btn_paste"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/btn_paste"
+        android:background="@drawable/menu_btn_selector"/>
+	
+	<Button android:id="@+id/btn_new"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/btn_new"
+        android:background="@drawable/menu_btn_selector"/>
+	
+	<Button android:id="@+id/btn_rename"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/btn_rename"
+        android:background="@drawable/menu_btn_selector"/>
+	
+	<Button android:id="@+id/btn_delete"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/btn_delete"
+        android:background="@drawable/menu_btn_selector"/>
+	
+	<Button android:id="@+id/btn_multi_select"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/btn_multi_select"
+        android:background="@drawable/menu_btn_selector"/>
+</LinearLayout>

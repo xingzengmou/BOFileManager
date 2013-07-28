@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal" >
+    
+    <LinearLayout android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+    
+	    <LinearLayout android:id="@+id/ly_sdcard"
+	        android:layout_width="128dp"
+	        android:layout_height="128dp"
+	        android:orientation="vertical"
+	        android:padding="10dp"
+	        android:layout_marginTop="5dp"
+	        android:gravity="center"
+	        android:background="@drawable/menu_btn_selector">
+	       <ImageView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/folder" />
+	        <TextView android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/tv_sdcard"
+	            android:gravity="center"
+	            android:layout_marginTop="5dp"
+	            android:background="@drawable/corner"/>
+	    </LinearLayout>
+	    
+	    <LinearLayout android:id="@+id/ly_video"
+	        android:layout_width="128dp"
+	        android:layout_height="128dp"
+	        android:orientation="vertical"
+	        android:padding="10dp"
+	        android:layout_marginTop="5dp"
+	        android:gravity="center"
+	        android:background="@drawable/menu_btn_selector">
+	       <ImageView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/video" />
+	        <TextView android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/tv_video"
+	            android:gravity="center"
+	            android:layout_marginTop="5dp"
+	            android:background="@drawable/corner"/>
+	    </LinearLayout>
+	    
+	    <LinearLayout android:id="@+id/ly_soft_manager"
+	        android:layout_width="128dp"
+	        android:layout_height="128dp"
+	        android:orientation="vertical"
+	        android:padding="10dp"
+	        android:layout_marginTop="5dp"
+	        android:gravity="center"
+	        android:background="@drawable/menu_btn_selector">
+	        <ImageView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/folder" />
+	        <TextView android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:layout_marginTop="5dp"
+	            android:text="@string/tv_soft_manager"
+	            android:background="@drawable/corner"/>
+	        
+	    </LinearLayout>
+    
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center" >
+    
+	    <LinearLayout android:id="@+id/ly_apk"
+	        android:layout_width="128dp"
+	        android:layout_height="128dp"
+	        android:orientation="vertical"
+	        android:padding="10dp"
+	        android:layout_marginTop="5dp"
+	        android:gravity="center"
+	        android:background="@drawable/menu_btn_selector">
+	        <ImageView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/apk" />
+	        <TextView android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/tv_apk"
+	            android:gravity="center"
+	            android:layout_marginTop="5dp"
+	            android:background="@drawable/corner"/>
+	    </LinearLayout>
+	    
+	    <LinearLayout android:id="@+id/ly_music"
+	        android:layout_width="128dp"
+	        android:layout_height="128dp"
+	        android:orientation="vertical"
+	        android:padding="10dp"
+	        android:layout_marginTop="5dp"
+	        android:gravity="center"
+	        android:background="@drawable/menu_btn_selector">
+	        <ImageView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/music" />
+	        <TextView android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:layout_marginTop="5dp"
+	            android:text="@string/tv_soft_manager"
+	            android:background="@drawable/corner"/>
+	    </LinearLayout>
+	    
+	    <LinearLayout android:id="@+id/ly_trash"
+	        android:layout_width="128dp"
+	        android:layout_height="128dp"
+	        android:orientation="vertical"
+	        android:padding="10dp"
+	        android:layout_marginTop="5dp"
+	        android:gravity="center"
+	        android:background="@drawable/menu_btn_selector">
+	        <ImageView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/trash" />
+	        <TextView android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/tv_trash"
+	            android:gravity="center"
+	            android:layout_marginTop="5dp"
+	            android:background="@drawable/corner"/>
+	    </LinearLayout>
+    
+    
+    </LinearLayout>
+
+    
+
+</LinearLayout>
