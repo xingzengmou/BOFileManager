@@ -34,7 +34,7 @@ public final class R {
         public static final int video=0x7f020009;
     }
     public static final class id {
-        public static final int action_settings=0x7f080016;
+        public static final int action_settings=0x7f080017;
         public static final int btn_back=0x7f080007;
         public static final int btn_copy=0x7f080009;
         public static final int btn_cut=0x7f08000a;
@@ -44,6 +44,7 @@ public final class R {
         public static final int btn_paste=0x7f08000b;
         public static final int btn_rename=0x7f08000d;
         public static final int btn_view=0x7f080008;
+        public static final int listview01=0x7f080016;
         public static final int ly_apk=0x7f080013;
         public static final int ly_music=0x7f080014;
         public static final int ly_sdcard=0x7f080010;
@@ -63,6 +64,7 @@ public final class R {
         public static final int layout_bottom_info=0x7f030001;
         public static final int layout_function_menu=0x7f030002;
         public static final int layout_main_phone=0x7f030003;
+        public static final int layout_sdcard=0x7f030004;
     }
     public static final class menu {
         public static final int main=0x7f070000;
